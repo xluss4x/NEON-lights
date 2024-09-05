@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design neon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/futura-std-4" rel="stylesheet">
+                
+</head>
+<body>
+   <main>
+       <h1>Criar um design Neon</h1>
+       <label for="user-input">Seu texto<input type="text" name="user-input" id="user-input" placeholder="Coloque o seu texto aqui"></label>
+        
+       <label for="font-style">Estilo da fonte</label>
+    <select name="font-style" id="font-style">
+        <option value="" selected></option>
+     <option value="Playfair Display" id="Playfair-display">Playfar Display</option>
+     <option value="Great Vibes" id="Great-vibes">Great Vibes</option>
+     <option value="Pacifico" id="Pacifico">Pacifico</option>
+     <option value="Ostrich" id="Ostrich">Ostrich</option>
+     <option value="Carolyna pro" id="Carolyna">Carolyna</option>
+     <option value="Bebas neue" id="Bebas">Bebas</option>
+     <option value="Alex Brush" id="Alex-brush">Alex Brush</option>
+         <!-- as fontes que irei usar sao:
+             Playfair Display
+             Great vibes
+             Pacifico
+             Ostrich Sans
+             Carolyna pro
+             Bebas neue
+             Alex Brush
+         -->
+     </select>
+        <div class="color-selection">
+            <button class="color-button">Vermelho</button>
+            <button class="color-button">Laranja</button>
+            <button class="color-button">Azul</button>
+            <button class="color-button">Amarelo</button>
+            <button class="color-button">Verde</button>
+            <button class="color-button">Purpura</button>
+        </div>
+
+        <label for="font-size">Tamanho</label>
+        <input type="range" name="font-size" id="font-size" min="8" max="72" step="8" value="8"> <span class="value">8pt</span>
+
+        <button class="color-button" id="generate-button">Gerar <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
+          </svg>
+          </button>
+
+
+   </main>
+
+</body>
+</html>
