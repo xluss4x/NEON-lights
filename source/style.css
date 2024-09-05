@@ -36,7 +36,7 @@ input:focus{
     outline: none;
 }
 
-.color-button{
+.color-button #generate-button{
     background-color: var(--main-color);
     display: inline-block;
     border: none;
@@ -99,3 +99,4 @@ span{
     font-family: var(--font-style);
     font-size: var(--font-size);
 }
+
