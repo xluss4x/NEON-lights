@@ -15,6 +15,7 @@ body {
 
 label {
     display: block;
+    margin-top: 0.5rem;
 }
 
 input{
@@ -36,7 +37,7 @@ input:focus{
     outline: none;
 }
 
-.color-button #generate-button{
+#generate-button {
     background-color: var(--main-color);
     display: inline-block;
     border: none;
@@ -50,16 +51,16 @@ input:focus{
     margin-right: 5px;
 }
 
-#generate-button{
+/* #generate-button{
     width: minmax(300px, 80%);
     display: block;
-}
+} */
 
-.color-button:hover{
+#generate-button:hover{
     background-color: var(--ligh-main);
 }
 
-.color-button:active{
+#generate-button:active{
     background-color: var(--lighter-main);
 }
 
@@ -96,7 +97,13 @@ span{
 }
 
 .neon-text{
-    font-family: var(--font-style);
-    font-size: var(--font-size);
+    text-shadow:
+        0 0 2px var(--secondary-color),
+        0 0 4px var(--secondary-color),
+        0 0 6px var(--secondary-color),
+        0 0 8px var(--secondary-color),
+        0 0 10px var(--secondary-color);
+    font-size: 1.5rem;
+    color: var(--text-color);
 }
 
